@@ -1,772 +1,226 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Jackson Template</title>
+<title>OLA STEPHEN ONUH</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="" />
-
-<meta property="og:title" content="" />
-<meta property="og:image" content="" />
-<meta property="og:url" content="" />
-<meta property="og:site_name" content="" />
-<meta property="og:description" content="" />
-<meta name="twitter:title" content="" />
-<meta name="twitter:image" content="" />
-<meta name="twitter:url" content="" />
-<meta name="twitter:card" content="" />
-
-<link rel="shortcut icon" href="https://preview.colorlib.com/theme/jackson/favicon.ico">
-<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/animate.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/icomoon.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/bootstrap.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/flexslider.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/fonts/flaticon/font/flaticon.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/owl.carousel.min.css">
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/owl.theme.default.min.css">
-
-<link rel="stylesheet" href="https://preview.colorlib.com/theme/jackson/css/style.css">
-
-<script src="https://preview.colorlib.com/theme/jackson/js/modernizr-2.6.2.min.js"></script>
-
-<!--[if lt IE 9]>
-	<script src="https://preview.colorlib.com/theme/jackson/js/respond.min.js"></script>
-	<![endif]-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
 </head>
-<body>
-<div id="colorlib-page">
-<div class="container-wrap">
-<a href="https://preview.colorlib.com/theme/jackson/#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-<div class="text-center">
-<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-<h1 id="colorlib-logo"><a href="https://preview.colorlib.com/theme/jackson/index.html">Jackson Ford</a></h1>
-<span class="position"><a href="https://preview.colorlib.com/theme/jackson/#">UI/UX/Designer</a> in Philippines</span>
-</div>
-<nav id="colorlib-main-menu" role="navigation" class="navbar">
-<div id="navbar" class="collapse">
-<ul>
-<li class="active"><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="home">Home</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="about">About</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="services">Services</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="skills">Skills</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="education">Education</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="experience">Experience</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="work">Work</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="blog">Blog</a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#" data-nav-section="contact">Contact</a></li>
-</ul>
-</div>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://www.w3schools.com/w3css/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
 </nav>
-<div class="colorlib-footer">
-<p><small>&copy; 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://preview.colorlib.com/theme/jackson/https://colorlib.com" target="_blank">Colorlib</a>
- </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-<ul>
-<li><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-facebook2"></i></a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-twitter2"></i></a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-instagram"></i></a></li>
-<li><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-linkedin2"></i></a></li>
-</ul>
-</div>
-</aside>
-<div id="colorlib-main">
-<section id="colorlib-hero" class="js-fullheight" data-section="home">
-<div class="flexslider js-fullheight">
-<ul class="slides">
-<li style="background-image: url(images/img_bg_1.jpg);">
-<div class="overlay"></div>
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-<div class="slider-text-inner js-fullheight">
-<div class="desc">
-<h1>Hi! <br>I'm Jackson</h1>
-<h2>100% html5 bootstrap templates Made by <a href="https://preview.colorlib.com/theme/jackson/https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li style="background-image: url(images/img_bg_2.jpg);">
-<div class="overlay"></div>
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-<div class="slider-text-inner">
-<div class="desc">
-<h1>I am <br>a Designer</h1>
-<h2>100% html5 bootstrap templates Made by <a href="https://preview.colorlib.com/theme/jackson/https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</li>
-</ul>
-</div>
-</section>
-<section class="colorlib-about" data-section="about">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-12">
-<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-<div class="col-md-12">
-<div class="about-desc">
-<span class="heading-meta">About Us</span>
-<h2 class="colorlib-heading">Who Am I?</h2>
-<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-<div class="services color-1">
-<span class="icon2"><i class="icon-bulb"></i></span>
-<h3>Graphic Design</h3>
-</div>
-</div>
-<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-<div class="services color-2">
-<span class="icon2"><i class="icon-globe-outline"></i></span>
-<h3>Web Design</h3>
-</div>
-</div>
-<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-<div class="services color-3">
-<span class="icon2"><i class="icon-data"></i></span>
-<h3>Software</h3>
-</div>
-</div>
-<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-<div class="services color-4">
-<span class="icon2"><i class="icon-phone3"></i></span>
-<h3>Application</h3>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-<div class="hire">
-<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-<a href="https://preview.colorlib.com/theme/jackson/#" class="btn-hire">Hire me</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-services" data-section="services">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">What I do?</span>
-<h2 class="colorlib-heading">Here are some of my expertise</h2>
-</div>
-</div>
-<div class="row row-pt-md">
-<div class="col-md-4 text-center animate-box">
-<div class="services color-1">
-<span class="icon">
-<i class="icon-bulb"></i>
-</span>
-<div class="desc">
-<h3>Innovative Ideas</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 text-center animate-box">
-<div class="services color-2">
-<span class="icon">
-<i class="icon-data"></i>
-</span>
-<div class="desc">
-<h3>Software</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 text-center animate-box">
-<div class="services color-3">
-<span class="icon">
-<i class="icon-phone3"></i>
-</span>
-<div class="desc">
-<h3>Application</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 text-center animate-box">
-<div class="services color-4">
-<span class="icon">
-<i class="icon-layers2"></i>
-</span>
-<div class="desc">
-<h3>Graphic Design</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 text-center animate-box">
-<div class="services color-5">
-<span class="icon">
-<i class="icon-data"></i>
-</span>
-<div class="desc">
-<h3>Software</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 text-center animate-box">
-<div class="services color-6">
-<span class="icon">
-<i class="icon-phone3"></i>
-</span>
-<div class="desc">
-<h3>Application</h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-<div class="overlay"></div>
-<div class="colorlib-narrow-content">
-<div class="row">
-</div>
-<div class="row">
-<div class="col-md-3 text-center animate-box">
-<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-<span class="colorlib-counter-label">Cups of coffee</span>
-</div>
-<div class="col-md-3 text-center animate-box">
-<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-<span class="colorlib-counter-label">Projects</span>
-</div>
-<div class="col-md-3 text-center animate-box">
-<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-<span class="colorlib-counter-label">Clients</span>
-</div>
-<div class="col-md-3 text-center animate-box">
-<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-<span class="colorlib-counter-label">Partners</span>
-</div>
-</div>
-</div>
-</div>
-<section class="colorlib-skills" data-section="skills">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">My Specialty</span>
-<h2 class="colorlib-heading animate-box">My Skills</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="progress-wrap">
-<h3>Photoshop</h3>
-<div class="progress">
-<div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-<span>75%</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-<div class="progress-wrap">
-<h3>jQuery</h3>
-<div class="progress">
-<div class="progress-bar color-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-<span>60%</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="progress-wrap">
-<h3>HTML5</h3>
-<div class="progress">
-<div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-<span>85%</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-<div class="progress-wrap">
-<h3>CSS3</h3>
-<div class="progress">
-<div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-<span>90%</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="progress-wrap">
-<h3>WordPress</h3>
-<div class="progress">
-<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-<span>70%</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-<div class="progress-wrap">
-<h3>SEO</h3>
-<div class="progress">
-<div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-<span>80%</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-education" data-section="education">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">Education</span>
-<h2 class="colorlib-heading animate-box">Education</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-<div class="fancy-collapse-panel">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingOne">
-<h4 class="panel-title">
-<a data-toggle="collapse" data-parent="#accordion" href="https://preview.colorlib.com/theme/jackson/#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
-</a>
-</h4>
-</div>
-<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-<div class="panel-body">
-<div class="row">
-<div class="col-md-6">
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-</div>
-<div class="col-md-6">
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingTwo">
-<h4 class="panel-title">
-<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="https://preview.colorlib.com/theme/jackson/#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
-</a>
-</h4>
-</div>
-<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-<div class="panel-body">
-<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-<ul>
-<li>Separated they live in Bookmarksgrove right</li>
-<li>Separated they live in Bookmarksgrove right</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingThree">
-<h4 class="panel-title">
-<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="https://preview.colorlib.com/theme/jackson/#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-</a>
-</h4>
-</div>
-<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-<div class="panel-body">
-<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingFour">
-<h4 class="panel-title">
-<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="https://preview.colorlib.com/theme/jackson/#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-</a>
-</h4>
-</div>
-<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-<div class="panel-body">
-<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingFive">
-<h4 class="panel-title">
-<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="https://preview.colorlib.com/theme/jackson/#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-</a>
-</h4>
-</div>
-<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-<div class="panel-body">
-<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-experience" data-section="experience">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">Experience</span>
-<h2 class="colorlib-heading animate-box">Work Experience</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="timeline-centered">
-<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-1">
-<i class="icon-pen2"></i>
-</div>
-<div class="timeline-label">
-<h2><a href="https://preview.colorlib.com/theme/jackson/#">Full Stack Developer</a> <span>2017-2018</span></h2>
-<p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
-</div>
-</div>
-</article>
-<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-2">
-<i class="icon-pen2"></i>
-</div>
-<div class="timeline-label">
-<h2><a href="https://preview.colorlib.com/theme/jackson/#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-</div>
-</div>
-</article>
-<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-3">
-<i class="icon-pen2"></i>
-</div>
-<div class="timeline-label">
-<h2><a href="https://preview.colorlib.com/theme/jackson/#">System Analyst</a> <span>2017-2018</span></h2>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-</div>
-</div>
-</article>
-<article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-4">
-<i class="icon-pen2"></i>
-</div>
-<div class="timeline-label">
-<h2><a href="https://preview.colorlib.com/theme/jackson/#">Creative Designer</a> <span>2017-2018</span></h2>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-</div>
-</div>
-</article>
-<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-5">
-<i class="icon-pen2"></i>
-</div>
-<div class="timeline-label">
-<h2><a href="https://preview.colorlib.com/theme/jackson/#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-</div>
-</div>
-</article>
-<article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-<div class="timeline-entry-inner">
-<div class="timeline-icon color-none">
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-work" data-section="work">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">My Work</span>
-<h2 class="colorlib-heading animate-box">Recent Work</h2>
-</div>
-</div>
-<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-<div class="col-md-12">
-<p class="work-menu"><span><a href="https://preview.colorlib.com/theme/jackson/#" class="active">Graphic Design</a></span> <span><a href="https://preview.colorlib.com/theme/jackson/#">Web Design</a></span> <span><a href="https://preview.colorlib.com/theme/jackson/#">Software</a></span> <span><a href="https://preview.colorlib.com/theme/jackson/#">Apps</a></span></p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="project" style="background-image: url(images/img-1.jpg);">
-<div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 01</a></h3>
-<span>Website</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-<div class="project" style="background-image: url(images/img-2.jpg);">
- <div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 02</a></h3>
-<span>Animation</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-<div class="project" style="background-image: url(images/img-3.jpg);">
-<div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 03</a></h3>
-<span>Illustration</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-<div class="project" style="background-image: url(images/img-4.jpg);">
-<div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 04</a></h3>
-<span>Application</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="project" style="background-image: url(images/img-5.jpg);">
-<div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 05</a></h3>
-<span>Graphic, Logo</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-<div class="project" style="background-image: url(images/img-6.jpg);">
-<div class="desc">
-<div class="con">
-<h3><a href="https://preview.colorlib.com/theme/jackson/work.html">Work 06</a></h3>
-<span>Web Design</span>
-<p class="icon">
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-share3"></i></a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-eye"></i> 100</a></span>
-<span><a href="https://preview.colorlib.com/theme/jackson/#"><i class="icon-heart"></i> 49</a></span>
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 animate-box">
-<p><a href="https://preview.colorlib.com/theme/jackson/#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-blog" data-section="blog">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">Read</span>
-<h2 class="colorlib-heading">Recent Blog</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="blog-entry">
-<a href="https://preview.colorlib.com/theme/jackson/blog.html" class="blog-img"><img src="https://preview.colorlib.com/theme/jackson/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-<div class="desc">
-<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-<h3><a href="https://preview.colorlib.com/theme/jackson/blog.html">Renovating National Gallery</a></h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-<div class="blog-entry">
-<a href="https://preview.colorlib.com/theme/jackson/blog.html" class="blog-img"><img src="https://preview.colorlib.com/theme/jackson/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-<div class="desc">
-<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-<h3><a href="https://preview.colorlib.com/theme/jackson/blog.html">Wordpress for a Beginner</a></h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-<div class="blog-entry">
-<a href="https://preview.colorlib.com/theme/jackson/blog.html" class="blog-img"><img src="https://preview.colorlib.com/theme/jackson/images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-<div class="desc">
-<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-<h3><a href="https://preview.colorlib.com/theme/jackson/blog.html">Make website from scratch</a></h3>
-<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 animate-box">
-<p><a href="https://preview.colorlib.com/theme/jackson/#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-</div>
-</div>
-</div>
-</section>
-<section class="colorlib-contact" data-section="contact">
-<div class="colorlib-narrow-content">
-<div class="row">
-<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-<span class="heading-meta">Get in Touch</span>
-<h2 class="colorlib-heading">Contact</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-5">
-<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-<div class="colorlib-icon">
-<i class="icon-globe-outline"></i>
-</div>
-<div class="colorlib-text">
-<p><a href="https://preview.colorlib.com/theme/jackson/#"><span class="__cf_email__" data-cfemail="3a53545c557a5e55575b535414595557">[email&#160;protected]</span></a></p>
-</div>
-</div>
-<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-<div class="colorlib-icon">
-<i class="icon-map"></i>
-</div>
-<div class="colorlib-text">
-<p>198 West 21th Street, Suite 721 New York NY 10016</p>
-</div>
-</div>
-<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-<div class="colorlib-icon">
-<i class="icon-phone"></i>
-</div>
-<div class="colorlib-text">
-<p><a href="https://preview.colorlib.com/theme/jackson/tel://">+123 456 7890</a></p>
-</div>
-</div>
-</div>
-<div class="col-md-7 col-md-push-1">
-<div class="row">
-<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-<form action="">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Name">
-</div>
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Email">
-</div>
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Subject">
-</div>
-<div class="form-group">
-<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-</div>
-<div class="form-group">
-<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
 </div>
 
-<script data-cfasync="false" src="https://preview.colorlib.com/theme/jackson//cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://preview.colorlib.com/theme/jackson/js/jquery.min.js"></script>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John Doe.</h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
 
-<script src="https://preview.colorlib.com/theme/jackson/js/jquery.easing.1.3.js"></script>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
 
-<script src="https://preview.colorlib.com/theme/jackson/js/bootstrap.min.js"></script>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
 
-<script src="https://preview.colorlib.com/theme/jackson/js/jquery.waypoints.min.js"></script>
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://www.w3schools.com/w3css/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="https://www.w3schools.com/w3css/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-<script src="https://preview.colorlib.com/theme/jackson/js/jquery.flexslider-min.js"></script>
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.w3schools.com/w3css//w3images/wedding.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3css/w3images/rocks.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3css/w3images/sailboat.jpg" style="width:100%">
+      </div>
 
-<script src="https://preview.colorlib.com/theme/jackson/js/owl.carousel.min.js"></script>
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
 
-<script src="https://preview.colorlib.com/theme/jackson/js/jquery.countTo.js"></script>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-<script src="https://preview.colorlib.com/theme/jackson/js/main.js"></script>
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
 
-  gtag('config', 'UA-23581568-13');
-</script>
+<!-- END PAGE CONTENT -->
+</div>
+
 </body>
 </html>
